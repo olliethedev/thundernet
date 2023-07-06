@@ -14,5 +14,14 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  daisyui: {
+    themes: [{
+      dracula: {
+        ...require("daisyui/src/theming/themes")["[data-theme=dracula]"],
+        "primary": "#ea580c",
+        "secondary": "#2563eb",
+      },
+    },],
+  },
+  plugins: [require("daisyui")],
 }
