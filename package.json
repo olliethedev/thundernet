@@ -16,6 +16,8 @@
     "eslint": "8.44.0",
     "eslint-config-next": "13.4.8",
     "next": "13.4.8",
+    "nostr-hooks": "^1.8.0",
+    "nostr-tools": "^1.12.1",
     "postcss": "8.4.25",
     "react": "18.2.0",
     "react-dom": "18.2.0",
